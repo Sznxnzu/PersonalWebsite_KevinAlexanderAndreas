@@ -515,14 +515,19 @@ cv_link{
     width: 100%;
     padding-top: 5rem;
     padding-left: 5%;
+    box-sizing: border-box;
+    justify-content: flex-start;
 }
 
 .project_header_textbox{
+    flex-grow: 1;
     padding-left: 2%;
     display: flex;
     flex-direction: column;
     flex-basis: 0;
     width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
 }
 
 .project_header_textbox_title{
@@ -536,13 +541,16 @@ cv_link{
     flex: 1;
     flex-basis: 0;
     width: 100%;
-    justify-content: space-between;
 }
 
 .project_header_textbox_title h1{
     color: #900000;
     font-size: 50px;
     letter-spacing: 30px;
+}
+
+.github_link{
+    padding-right: 2%;
 }
 
 .github_link a{
